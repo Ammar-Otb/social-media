@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+* {
+	-ms-overflow-style: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+	display: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.borderClass {
+	border-left-style: solid !important;
+	border-width: 0.5px !important;
+	border-color: rgb(68, 66, 66) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.borderClass2 {
+	border-bottom-style: solid !important;
+	border-width: 0.5px !important;
+	border-color: rgb(68, 66, 66) !important;
 }
-
-.App-link {
-  color: #61dafb;
+textarea {
+	border: none !important;
+	border-bottom-style: solid !important;
+	outline: none !important;
+	border-width: 0.05px !important;
+	border-color: rgb(68, 66, 66) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tweet-content {
+	border-bottom-style: solid !important;
+	border-width: 0.05px !important;
+	border-color: rgb(68, 66, 66) !important;
+}
+.list-group {
+	margin-top: 35px;
+	height: 100%;
+	width: 90%;
+	overflow-y: scroll;
+	box-shadow: -1px 1px 0px 4px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+}
+li {
+	border: none !important;
+	background-color: #04031a !important;
+	margin-bottom: 20px;
+	border-bottom-style: solid !important;
+	border-width: 0.05px !important;
+	border-color: rgb(68, 66, 66) !important;
 }
